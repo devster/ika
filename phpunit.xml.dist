@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="src/autoload.php">
+    <testsuites>
+        <testsuite name="Ika Test Suite">
+            <directory>./test/Ika/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
