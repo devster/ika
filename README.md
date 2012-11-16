@@ -175,13 +175,10 @@ You can start the transaction at the command you want:
 $t->begin('my_command');
 ```
 
-You start the rollback at the command you want:
+You can start the rollback at the command you want:
 ```php
 $t->rollback('my_command');
 ```
-
-
-You can run the transaction
 
 About
 -----
