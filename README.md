@@ -7,7 +7,7 @@ Concept
 -------
 Ika relies on doing the same as SQL transations but with eclectic actions, and if an error occured roll back these actions.
 
-An example of application will be an installer, that perform multiple actions like create folder, duplicate files, run SQL queries etc and if one of these actions doesn't work, must be cleaned previous actions.
+An example of application will be an installer, that performs multiple actions like create folder, duplicate files, run SQL queries etc and if one of these actions doesn't work, clean previous actions.
 
 How it works
 ------------
@@ -117,7 +117,6 @@ $t = new Transaction;
 $t->add(new MyCommand);
 // add a bunch of commands
 //$t->addCommands(array(new Command, ...));
-
 
 try {
     $t->begin();
