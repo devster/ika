@@ -225,7 +225,7 @@ class Transaction
     }
 
     /**
-     * Rollback the Transaction
+     * Roll back the Transaction
      *
      * It will execute the `down`action of the succeeded commands
      * or all if no exception has been thrown during the begin method.

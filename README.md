@@ -5,7 +5,7 @@ PHP 5.3 library to use command/transaction design pattern
 
 Concept
 -------
-Ika relies on doing the same as SQL transations but with eclectic actions, and if an error occured rollback these actions.
+Ika relies on doing the same as SQL transations but with eclectic actions, and if an error occured roll back these actions.
 
 An example of application will be an installer, that perform multiple actions like create folder, duplicate files, run SQL queries etc and if one of these actions doesn't work, must be cleaned previous actions.
 
@@ -16,7 +16,7 @@ You create several commands, each one has a up action and a down action.
 When you will start the transaction, all up action of your commands will be run,
 in the order they were added.
 
-If an error occurred, you can rollback. It will run all down action of all succeeded commands
+If an error occurred, you can roll back. It will run all down action of all succeeded commands
 in reverse. That's it. Simple.
 
 Installation
