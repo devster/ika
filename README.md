@@ -12,7 +12,7 @@ An example of application will be an installer, that performs multiple actions l
 How it works
 ------------
 
-You create several commands, each one has a up action and a down action.
+You create several commands, each one has an up action and a down action.
 When you will start the transaction, all up action of your commands will be run,
 in the order they were added.
 
